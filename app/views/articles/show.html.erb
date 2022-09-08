@@ -1,2 +1,4 @@
 <h1><%= @article.title %></h1>
 <p><%= @article.text %></p>
+<%= link_to "更新する", edit_article_path(@article) %>
+<%= link_to "記事一覧戻る", articles_path %>
